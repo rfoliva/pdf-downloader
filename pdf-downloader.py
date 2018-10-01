@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 
+
 import requests
 import sys
+
 
 """ Downlaod
 """
@@ -32,7 +34,8 @@ def pdf_merge(parameter_list):
     pass
 
 def main():
-    print(download_files('/tmp/', ['http://aviaryan.in/images/profile.png']))
+    files_to_download = ['http://google.com/favicon.ico', 'http://aviaryan.in/images/profile.png']
+    print(download_files('/tmp/', files_to_download))
     
 
 if __name__ == '__main__':
