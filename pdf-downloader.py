@@ -11,7 +11,7 @@ def download_files(path, urls_to_download):
     """ Function expects to receive list composed of URLs of files to be
     downloaded.
 
-    param urls_to_download: list
+    param urls_to_download: list of strings
     returns: 
     """
     downloaded_files = []
